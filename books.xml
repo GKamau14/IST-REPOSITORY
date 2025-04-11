@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+  <book>
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <price>10.99</price>
+  </book>
+  <book>
+    <title>1984</title>
+    <author>George Orwell</author>
+    <price>8.99</price>
+  </book>
+  <book>
+    <title>To Kill a Mockingbird</title>
+    <author>Harper Lee</author>
+    <price>12.99</price>
+  </book>
+  <book>
+    <title>Moby Dick</title>
+    <author>Herman Melville</author>
+    <price>15.50</price>
+  </book>
+  <book>
+    <title>Kifo Kisimani</title>
+    <author>Kithaka Wa Mberia</author>
+    <price>20</price>
+</books>

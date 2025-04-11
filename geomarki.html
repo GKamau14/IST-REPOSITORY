@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geormarki Bookstores</title>
+  <link rel="stylesheet" href="geomarki.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Geormarki Bookstores</h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#catalog">Catalog</a></li>
+          <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Discover Your Next Favorite Book</h2>
+        <p>Experience the future of reading with our curated collection.</p>
+        <a href="#catalog" class="btn">Browse Catalog</a>
+      </div>
+    </section>
+
+    <section id="catalog">
+      <h2>Book Catalog</h2>
+      <div id="book-list" class="book-grid"></div>
+    </section>
+
+    <section id="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <div class="cart-summary">
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button id="checkout" class="btn">Checkout</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Geormarki Bookstores. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="geomarki.js"></script>
+</body>
+</html>
